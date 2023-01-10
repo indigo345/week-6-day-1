@@ -1,0 +1,75 @@
+#mainbody {
+    padding: 1px 10%
+}
+div #line {
+    background-color: black;
+    width: 75px;
+    height: 2px;
+    margin-bottom: 10;
+}
+#line.white {
+    background-color: white;
+    width: 75px;
+    height: 2px;
+    margin-bottom: 10;
+}
+
+body {
+    background-color: #eeeeee;
+    font-family:Arial, Helvetica, sans-serif
+}
+h1 {
+    font-size: 30pt;
+    font-weight:500;
+    margin-bottom: 10px;
+}
+div .outer{
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 15;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px -5px ;
+    font-size: 17pt;
+}
+div .notInStock {
+    display: none;
+}
+
+div .price, .name, .details{
+    display: inline-block;
+    width: 30%;
+}
+
+#darkMode{
+    display: inline-block;
+    padding: 10px 12px;
+    border: solid 1px;
+    border-radius: 4px;
+    font-size: 15pt;
+}
+
+#darkmode:hover {
+    cursor: pointer;
+}
+
+div .dark{
+    background-color: #424242 !important;
+    color: white;
+    margin-bottom: 15px;
+    padding: 15;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px -4px ;
+    font-size: 17pt;
+}
+
+#wholebody.darker{
+    background-color: #2b2b2b;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+}
